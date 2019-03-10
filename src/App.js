@@ -3,6 +3,7 @@ import './App.css';
 import KsdNav from './KsdNav';
 import KsdIntro from './KsdIntro';
 import KsdButtonToolbar from './KsdButtonToolbar';
+import KsdFooter from './KsdFooter';
 
 class App extends Component {
   // Render: componentWillMount() -> render() -> componentDidMount()
@@ -14,8 +15,7 @@ class App extends Component {
         <KsdNav />
         <KsdIntro />
         <KsdButtonToolbar />
-        <h1>Sample Home Page</h1>
-        <h2>Header 2</h2>
+        <KsdFooter />
       </React.Fragment>
     );
   }

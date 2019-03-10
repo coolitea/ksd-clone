@@ -1,0 +1,45 @@
+body {
+  display: flex;      
+}
+
+h1 {  
+  color: white;
+  text-shadow: 2px 4px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
+}
+
+h2 {
+  /* color: #2c3e50; */
+  color:white;
+  text-shadow: 2px 4px 6px rgba(0,0,0,0.2), 0px -3px 20px rgba(255,255,255,0.4);
+}
+
+.blue {
+  color:#2F4468;
+}
+
+.blue__impact {
+  color: #1A89CD;
+  font-weight: 600;
+}
+
+.green {
+  color: #488E2A;
+}
+
+.green__impact {
+  color: #488E2A;
+  font-weight: 600;
+}
+
+.leap {
+  color: #3F575A;  
+}
+.leap__impact  {
+  color: #488E2A;
+}
+
+
+/* .carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}  */

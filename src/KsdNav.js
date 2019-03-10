@@ -11,7 +11,6 @@ import {
 import { FaSearch } from 'react-icons/fa';
 import './KsdNav.css';
 import logo from './logo.png';
-// import PropTypes from 'prop-types';
 
 function KsdNav() {
   return (

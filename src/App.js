@@ -3,6 +3,7 @@ import './App.css';
 import KsdNav from './KsdNav';
 import KsdIntro from './KsdIntro';
 import KsdButtonToolbar from './KsdButtonToolbar';
+import KsdService from './KsdService';
 import KsdFooter from './KsdFooter';
 
 class App extends Component {
@@ -14,8 +15,15 @@ class App extends Component {
       <React.Fragment>
         <KsdNav />
         <KsdIntro />
-        <KsdButtonToolbar />
-        <KsdFooter />
+        <div>
+          <KsdButtonToolbar />
+        </div>
+        <div>
+          <KsdService />
+        </div>
+        <footer className="footer">
+          <KsdFooter />
+        </footer>
       </React.Fragment>
     );
   }

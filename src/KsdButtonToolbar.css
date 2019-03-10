@@ -6,6 +6,20 @@
   min-width: 50%;
 }
  
+.btn.btn-outline-dark {
+  color: #636e72;  
+  border-color:#ecf0f1;
+}
+.btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, 
+.btn-outline-dark.active, .open>.dropdown-toggle.btn-outline-dark {
+  color: #636e72;
+  border-color:#ecf0f1;
+  background-color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
   .btn {
@@ -25,17 +39,4 @@
   .btn {
     min-width: 12%;    
   } 
-}
-
-.btn.btn-outline-dark {
-  color: #636e72;  
-  border-color:#ecf0f1;
-}
-.btn-outline-dark:hover, .btn-outline-dark:focus, .btn-outline-dark:active, 
-.btn-outline-dark.active, .open>.dropdown-toggle.btn-outline-dark {
-  color: #636e72;
-  border-color:#ecf0f1;
-  background-color: white;
-  outline: none;
-  box-shadow: none;
 }

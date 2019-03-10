@@ -9,7 +9,6 @@ import {
   Button
 } from 'react-bootstrap';
 import { FaSearch } from 'react-icons/fa';
-import './KsdNav.css';
 import logo from './logo.png';
 
 function KsdNav() {
